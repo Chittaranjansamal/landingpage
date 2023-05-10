@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.frontpage {
+    background-color: #1f2937;
+    color: aliceblue;
+    padding-top: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.description {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px 60px;
+    
+}
+img {
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    /* display: flex;
+    justify-content: end;
+    align-items: flex-end; */
+    
+}
+button{
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.information {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px;
+    
+}
+.boxes {
+    text-align: center;
+}
+.squre {
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    border: solid #3882F6;
+}
+.random {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    display: flex;
+    align-self: flex-end;
+}
+.font {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.action{
+    display: flex;
+    margin: 30px 80px;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 20px;
+}
+.signup {
+    display: flex;
+    width: auto;
+    height: 32px;   
+}
+.footer {
+    background-color:#E5E7EB ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+}
