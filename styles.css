@@ -31,10 +31,7 @@ body{
 img {
     width: 400px;
     height: 200px;
-    background-color: brown;
-    /* display: flex;
-    justify-content: end;
-    align-items: flex-end; */
+    background-color: rgb(14, 14, 14);
     
 }
 button{
